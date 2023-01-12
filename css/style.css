@@ -417,24 +417,12 @@ ol {
 	top: 2px;
 }
 
-.header__right {
-	text-align: right;
-	padding: 20px 0 15px;
-}
-
-.header__right a {
-	display: inline-block;
-	font-size: 18px;
-	color: #ffffff;
-	margin-right: 30px;
-}
-
-.header__right a:last-child {
-	margin-right: 0;
-}
-
 .slicknav_menu {
 	display: none;
+}
+.col-lg-8 {
+	padding: 0;
+	margin: 0;
 }
 
 /*---------------------
@@ -1176,6 +1164,9 @@ ol {
 	border: none;
 	padding: 10px 15px;
 	border-radius: 2px;
+}
+.dyinglight__text{
+	color: black;
 }
 
 /*---------------------
@@ -2131,6 +2122,7 @@ ol {
 		padding-left: 0;
 	}
 }
+
 
 /* Wide Mobile = 480px */
 

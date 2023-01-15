@@ -1033,7 +1033,7 @@ ol {
 -----------------------*/
 
 .anime-details {
-	padding-top: 60px;
+	padding-top: 40px;
 }
 
 .anime__details__content {
@@ -1109,11 +1109,22 @@ ol {
 	display: inline-block;
 }
 
-.anime__details__rating span {
+.anime__details__rating {
 	display: block;
 	font-size: 18px;
-	color: #b7b7b7;
+	color: white;
+
 }
+.details-score-text{
+	background-color: green;
+	padding: 7px 10px 7px 10px;
+	margin-right: 7px;
+	border-radius: 5px;
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 25px;
+}
+
 
 .anime__details__widget {
 	margin-bottom: 15px;
@@ -1267,6 +1278,87 @@ ol {
 .dyinglight__text{
 	color: black;
 }
+
+/* Prices Pane Begin */
+.container-price-pane{
+	padding-bottom: 4rem;
+}
+.game-name{
+	color: white;
+}
+hr {
+	border-style: none;
+	height: 0.5px;
+	width: 85%;
+	background-color: rgb(172, 172, 172);
+}
+.game-name {
+	display: inline-block;
+	position: relative;
+	padding: 1rem;
+}
+.game-store {
+	color: grey;
+	display: inline-block;
+	width: 10rem;
+}
+.game-price {
+	display: inline-block;
+	position: absolute;
+	color: white;
+	right: 20rem;
+	font-size: 20px;
+	padding: 1rem;
+
+}
+.game-buy-btn {
+	color: rgb(16, 9, 47);
+	right: 10rem;
+	border-radius: 5px;
+	padding: 2px 5px 2px 5px;
+	display: inline-block;
+	position: absolute;
+}
+.game-buy-btn--1{
+	top: 46rem;
+	right: 13rem;
+}
+.game-buy-btn--2{
+	top: 51.5rem;
+	right: 13rem;
+}
+.game-buy-btn--3{
+	top: 57rem;
+	right: 13rem;
+}
+.game-buy-btn--4{
+	top: 62.5rem;
+	right: 13rem;
+}
+.price-pane-heading{
+	color: white;
+	padding-left: 10px;
+	margin-bottom: 2rem;
+	font-size: 1.5rem;
+	font-weight: 600;
+	font-family: "oswald", sans-serif;
+	line-height: 21px;
+	
+}
+.price-pane-heading::after{
+	position: absolute;
+    height: 32px;
+    width: 4px;
+	top: 41.6rem;
+	left: 7rem;
+    background: #e53637;
+    content: "";
+}
+
+
+
+
+/* Prices Pane End */
 
 /*---------------------
   anime watching

@@ -1283,6 +1283,9 @@ ol {
 .container-price-pane{
 	padding-bottom: 4rem;
 }
+.anime__details__pic {
+	margin-bottom: 0;
+}
 .game-name{
 	color: white;
 }
@@ -1291,6 +1294,8 @@ hr {
 	height: 0.5px;
 	width: 85%;
 	background-color: rgb(172, 172, 172);
+}
+.game-desc {
 }
 .game-name {
 	display: inline-block;
